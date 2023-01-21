@@ -1,0 +1,20 @@
+# With this config empty ONLY the Terminal: ./mvnw spring-boot:run works 
+#management:
+server:
+  port: 3000
+spring:
+  datasource:
+    url: jdbs:postgresql://localhost:5431/axe
+    username: postgres
+    password: password
+jpa:
+  hibernate:
+    ddl-auto: create-drop
+    properties:
+    hibernate:
+    dialect: org.hibernate.dialect.PostgreSQLDialect
+    format_sql: true
+    show-sql: true
+main:
+  web-application-type: servlet
+
