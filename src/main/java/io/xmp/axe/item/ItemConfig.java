@@ -25,7 +25,7 @@ public class ItemConfig {
 	{
 	  "name": "Mars",
 	  "email": "mars@mail.io",
-	  "dob": "1995-12-17"
+	  "bd": "1995-12-17"
 	} 
 */
 

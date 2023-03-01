@@ -1,10 +1,10 @@
 # With this config empty ONLY the Terminal: ./mvnw spring-boot:run works 
-#management:
+#management: 
 server:
-  port: 3000
+  port: 8080
 spring:
   datasource:
-    url: jdbs:postgresql://localhost:5431/axe
+    url: jdbs:postgresql://localhost:5432/axe
     username: postgres
     password: password
 jpa:

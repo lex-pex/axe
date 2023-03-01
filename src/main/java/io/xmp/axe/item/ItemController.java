@@ -46,9 +46,9 @@ public class ItemController {
 	public void deleteItem( @PathVariable ( "id" ) Long id ) { 
 		itemService. delete( id ); 
 	}
-}
-
-/*  Rest API methods: 
+} 
+/*  
+	Rest API methods: 
 	show / showAll / index  
 	create / store 
 	update / save 
